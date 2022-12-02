@@ -1,0 +1,26 @@
+.header {
+  background: $panel;
+  padding: 1;
+  color: $text;
+}
+
+.posts {
+  background: $background;
+}
+
+.post {
+  color: $text;
+  layout: horizontal;
+  height: 4;
+  border-bottom: ascii $panel;
+}
+
+.post__header {
+  width: 1fr;
+  height: 1fr;
+  layout: vertical;
+}
+
+.post__title {
+  text-style: italic;
+}

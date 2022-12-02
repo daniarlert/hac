@@ -35,6 +35,7 @@ class HacApp(App):
     A Textual app to watch, save and manage HackerNews news.
     """
 
+    CSS_PATH = "styles.css"
     BINDINGS = [
         ("d", "toggle_dark", "Toggle dark mode"),
         ("q", "quit", "Quit"),
